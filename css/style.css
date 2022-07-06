@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+/* ====================         
+    banner-part-start
+=======================*/
+.banner-part{
+    background-image: url(/images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    color: white;
+}
+.text{
+    padding: 0px 365px;
+    text-align: center;
+}
+.banner-text{
+    color: white;
+}
+h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+p{
+    font-size: 18px;
+    font-weight: 500; 
+    text-align: center;
+    color: #7b7676;
+     
+}
+.button{
+    text-decoration: none;
+    padding: 20px 35px;
+    border-radius: 10px;
+    background-color: #e35050;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    display: inline-block;
+    margin: 20px 0;
+    text-align: center;
+}
+/* ====================
+  banner-part-end
+=======================*/
+/* ====================
+donate-today-part-start
+=======================*/
+.main-text{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.main-part{
+    display: flex;
+    justify-content: center;  
+}
+.taka{
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 3%;
+    transition: 3s;
+    padding: 0 10px;
+    border: 3px solid #f6f1f1;
+    margin-bottom: 50px;
+}
+.taka:hover{
+    color: #e35050;
+    border: 3px solid #e35050;
+    background-color: #fababa;
+    box-shadow: none;
+}
+.tk{
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+}
+.border-down{
+    color: #bfb8b8;
+    border-bottom: 3px solid #bfb8b8;
+}
+/* ====================
+donate-today-part-end
+=======================*/
+/* ====================
+donate-plan-part-start
+=======================*/
+.donate-part{
+    display: flex;
+}
+.food-part{
+    background-color: #e6f9f2;
+}
+.shelter-part{
+    background-color: #f6e6ef;
+}
+.education-part{
+    background-color: #f4f5d2;
+}
+.common{
+    padding: 40px 70px;
+    margin-left: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #f3ecec;
+}
+h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+.text-part{
+    text-align: left;
+}
+/* ====================
+ donate-plan-part-end
+=======================*/
+/* ================================
+contribute and survive-part-start
+====================================*/
+.contribute-part{
+margin: 50px 0;
+}
+
+.img{
+    width: 100%;
+}
+.contribute-plan-part{
+    width: 40%;
+    margin: -2% 5%;
+    
+}
+.contribute-img{
+    width: 40%;
+}
+.contribute-img img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+/* ===============================
+contribute and survive-part-end
+===================================*/
+/* ====================
+    footer-part-start
+=======================*/
+footer{
+    text-align: center;
+    background: #000;
+    padding: 30px 0;
+}
+footer h2{
+    color: #e35050;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+footer small{
+    color: white;
+}
+/* ====================
+    footer-part-end
+=======================*/
